@@ -1,0 +1,206 @@
+{
+    "partners": [
+        {
+            "name": "ABB",
+            "logo": "assets/partners/ABB.png"
+        },
+        {
+            "name": "CG",
+            "logo": "assets/partners/CG.png"
+        },
+        {
+            "name": "DELTA",
+            "logo": "assets/partners/DELTA.png"
+        },
+        {
+            "name": "Danfoss",
+            "logo": "assets/partners/Danfoss.png"
+        },
+        {
+            "name": "GIC",
+            "logo": "assets/partners/GIC.jfif"
+        },
+        {
+            "name": "INVT",
+            "logo": "assets/partners/INVT.jfif"
+        },
+        {
+            "name": "RITTAL",
+            "logo": "assets/partners/RITTAL.png"
+        },
+        {
+            "name": "Rockwell",
+            "logo": "assets/partners/Rockwell.png"
+        },
+        {
+            "name": "Schneider",
+            "logo": "assets/partners/Schneider.png"
+        },
+        {
+            "name": "Wago",
+            "logo": "assets/partners/Wago.png"
+        },
+        {
+            "name": "Wecon",
+            "logo": "assets/partners/Wecon.png"
+        },
+        {
+            "name": "Yaskawa",
+            "logo": "assets/partners/Yaskawa.jfif"
+        }
+    ],
+    "products": {
+        "ABB": [
+            "assets/products/ABB/ABB_VFD_6.jfif",
+            "assets/products/ABB/ABB_VFD_1.jfif",
+            "assets/products/ABB/ABB_SMPS_8.jfif",
+            "assets/products/ABB/ABB_VFD_3.jfif",
+            "assets/products/ABB/ABB_VFD_2.jfif",
+            "assets/products/ABB/ABB_VFD_5.jfif",
+            "assets/products/ABB/ABB_VFD_4.jfif",
+            "assets/products/ABB/ABB_PLC_7.jfif"
+        ],
+        "CG": [
+            "assets/products/CG/CG_Emotron_VFD_3.jfif",
+            "assets/products/CG/CG_Emotron_VFD_2.jfif",
+            "assets/products/CG/CG_Emotron_VFD_5.jfif",
+            "assets/products/CG/CG_Emotron_VFD_4.jfif",
+            "assets/products/CG/CG_Emotron_VFD_1.jfif"
+        ],
+        "DELTA": [
+            "assets/products/DELTA/Delta_VFD_4.jfif",
+            "assets/products/DELTA/Delta_HMI_10.jfif",
+            "assets/products/DELTA/Delta_VFD_5.jfif",
+            "assets/products/DELTA/Delta_PLC_1.jfif",
+            "assets/products/DELTA/Delta_PLC_3.jfif",
+            "assets/products/DELTA/Delta_PLC_2.jfif",
+            "assets/products/DELTA/Delta_HMI_8.jfif",
+            "assets/products/DELTA/Delta_VFD_6.jfif",
+            "assets/products/DELTA/Delta_VFD_7.jfif",
+            "assets/products/DELTA/Delta_HMI_9.jfif"
+        ],
+        "Danfoss": [
+            "assets/products/Danfoss/Danfoss_4.jfif",
+            "assets/products/Danfoss/Danfoss_3.jfif",
+            "assets/products/Danfoss/Danfoss_2.jfif"
+        ],
+        "Fuji": [
+            "assets/products/Fuji/Fuji_1.jfif",
+            "assets/products/Fuji/Fuji_HM_10.jfif",
+            "assets/products/Fuji/Fuji_HMI_9.jfif",
+            "assets/products/Fuji/Fuji_HMI_11.jfif",
+            "assets/products/Fuji/Fuji_2.jfif",
+            "assets/products/Fuji/Fuji_UPS_3.jfif",
+            "assets/products/Fuji/Fuji_2.png",
+            "assets/products/Fuji/Fuji_0.png",
+            "assets/products/Fuji/FUJI_HM_8.jfif"
+        ],
+        "GIC": [
+            "assets/products/GIC/GIC_PLC_2.jfif",
+            "assets/products/GIC/GIC_PLC_3.jfif",
+            "assets/products/GIC/GIC_HMI_5.jfif",
+            "assets/products/GIC/GIC_HMI_6_Relay.jfif",
+            "assets/products/GIC/GIC_HMI_9_Slim_Relay.jfif",
+            "assets/products/GIC/GIC_HMI_4.jfif",
+            "assets/products/GIC/GIC_HMI_7_Timer.jfif",
+            "assets/products/GIC/GIC_SMPS_10.jfif",
+            "assets/products/GIC/GIC_HMI_8_Converter.jfif",
+            "assets/products/GIC/GIC_PLC_1.jfif"
+        ],
+        "INVT": [
+            "assets/products/INVT/INVT_SOLAR_VFD_5.jpeg",
+            "assets/products/INVT/INVT_VFD_2.jfif",
+            "assets/products/INVT/INVT_VFD_3.jfif",
+            "assets/products/INVT/INVT_SOLAR_VFD_4.jpeg",
+            "assets/products/INVT/INVT_HMI_7.jfif",
+            "assets/products/INVT/INVT_SOLAR_VFD_6.jpeg",
+            "assets/products/INVT/INVT_VFD_1.jfif"
+        ],
+        "Nidec": [
+            "assets/products/Nidec/Nidec_2.jfif",
+            "assets/products/Nidec/Nidec_3.jfif",
+            "assets/products/Nidec/nidec.jpg",
+            "assets/products/Nidec/Nidec_1.jfif",
+            "assets/products/Nidec/Nidec_4.png"
+        ],
+        "RITTAL": [
+            "assets/products/RITTAL/Rittal_AC_9.jfif",
+            "assets/products/RITTAL/Rittal_PLC_6.jfif",
+            "assets/products/RITTAL/Rittal_JB_7.jfif",
+            "assets/products/RITTAL/Rittal_JB_8.jfif",
+            "assets/products/RITTAL/Rittal_MCC_Panel_3.jfif",
+            "assets/products/RITTAL/Rittal_PLC_5.jfif",
+            "assets/products/RITTAL/Rittal_AC_11.jfif",
+            "assets/products/RITTAL/Rittal_AC_10.jfif",
+            "assets/products/RITTAL/Rittal_Instrument_Panel_12.jfif",
+            "assets/products/RITTAL/Rittal_MCC_Panel_5.jfif",
+            "assets/products/RITTAL/Rittal_MCC_Panel_4.jfif",
+            "assets/products/RITTAL/Rittal_logo.jfif"
+        ],
+        "Rockwell": [
+            "assets/products/Rockwell/Rockwell_PLC_1.jfif",
+            "assets/products/Rockwell/Rockwell_Logo_1.png",
+            "assets/products/Rockwell/Rockwell_VFD_4.jfif",
+            "assets/products/Rockwell/Rockwell_VFD_5.jfif",
+            "assets/products/Rockwell/Rockwell_VFD_6.jfif",
+            "assets/products/Rockwell/Rockwell_HMI_8.jfif",
+            "assets/products/Rockwell/Rockwell_HMI_10.jfif",
+            "assets/products/Rockwell/Rockwell_HMI_11.jfif",
+            "assets/products/Rockwell/Rockwell_HMI_9.jfif",
+            "assets/products/Rockwell/Rockwell_PLC_4.jpg",
+            "assets/products/Rockwell/Rockwell_VFD_7.jfif",
+            "assets/products/Rockwell/Rockwell_PLC_3.jfif",
+            "assets/products/Rockwell/Rockwell_PLC_2.jfif"
+        ],
+        "Schneider": [
+            "assets/products/Schneider/Schneider_Logo_1.png",
+            "assets/products/Schneider/Schneider_VFD_6.jfif",
+            "assets/products/Schneider/Schneider_PLC_5.jfif",
+            "assets/products/Schneider/Schneider_PLC_4.jfif",
+            "assets/products/Schneider/Schneider_PLC_3.png"
+        ],
+        "Siemens": [
+            "assets/products/Siemens/Siemens_2.jfif",
+            "assets/products/Siemens/Siemens_SMPS_10.jfif",
+            "assets/products/Siemens/Siemens_SMPS_11.jfif",
+            "assets/products/Siemens/Siemens_3.jfif",
+            "assets/products/Siemens/Siemens_4.jfif",
+            "assets/products/Siemens/Siemens_5.jfif",
+            "assets/products/Siemens/Siemens_6.jfif",
+            "assets/products/Siemens/Siemens_VFD_8.jfif",
+            "assets/products/Siemens/Siemens_VFD_9.jfif",
+            "assets/products/Siemens/Siemens_7.jfif",
+            "assets/products/Siemens/Siemens_1.png"
+        ],
+        "Wago": [
+            "assets/products/Wago/Wago_PLC_3.jfif",
+            "assets/products/Wago/Wago_PLC_2.jfif",
+            "assets/products/Wago/Wago_PLC_4.jfif",
+            "assets/products/Wago/Wago_Relay_6.jfif",
+            "assets/products/Wago/Wago_SMPS_5.jfif",
+            "assets/products/Wago/Wago_PLC_1.jfif"
+        ],
+        "Wecon": [
+            "assets/products/Wecon/Wecon_HMI_3.jfif",
+            "assets/products/Wecon/Wecon_HMI_2.jfif",
+            "assets/products/Wecon/Wecon_HMI_5.jfif",
+            "assets/products/Wecon/Wecon_HMI_4.jfif",
+            "assets/products/Wecon/Wecon_HMI_1.jfif"
+        ],
+        "Yaskawa": [
+            "assets/products/Yaskawa/Yaskawa_VFD_4.jfif",
+            "assets/products/Yaskawa/Yaskawa_VFD_2.jfif",
+            "assets/products/Yaskawa/Yaskawa_VFD_3.jfif"
+        ],
+        "Electrical Panel": [
+            "assets/products/Electrical Panel/Electrical_MCC_Panel_3.jfif",
+            "assets/products/Electrical Panel/Electrical_MCC_Panel_1.png",
+            "assets/products/Electrical Panel/Electrical_MCC_Panel_2.jfif",
+            "assets/products/Electrical Panel/Junction Box_1.png",
+            "assets/products/Electrical Panel/Electrical_MCC_Panel_5.jfif",
+            "assets/products/Electrical Panel/Electrical_MCC_Panel_4.jfif",
+            "assets/products/Electrical Panel/Junction Box_2.jfif",
+            "assets/products/Electrical Panel/Junction Box_3.jfif"
+        ]
+    }
+}
