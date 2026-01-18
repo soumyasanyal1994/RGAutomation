@@ -117,7 +117,7 @@ a {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(30, 64, 175, 0.8), rgba(30, 64, 175, 0.8)), url('assets/img/RG_Office.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/img/RG_Office.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -152,6 +152,14 @@ a {
     display: flex;
     gap: 1rem;
     justify-content: center;
+}
+
+.msme-logo {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    max-width: 80px;
+    height: auto;
 }
 
 .btn {
@@ -208,6 +216,30 @@ a {
     background: var(--light);
 }
 
+#products {
+    background:
+        linear-gradient(135deg, rgba(37, 99, 235, 0.18), rgba(59, 130, 246, 0.05)),
+        #f9fafb;
+}
+
+#partners {
+    background:
+        linear-gradient(rgba(249, 250, 251, 0.6), rgba(249, 250, 251, 0.6)),
+        url('assets/img/partners.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contact {
+    background:
+        linear-gradient(rgba(37, 99, 235, 0.4), rgba(37, 99, 235, 0.4)),
+        url('assets/img/contact.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -228,7 +260,7 @@ a {
 
 /* About Section */
 #about {
-    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('assets/img/RG_Panel.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('assets/img/RG_Panel.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

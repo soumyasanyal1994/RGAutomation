@@ -57,18 +57,21 @@ fetch('data.json')
         // Fallback data if JSON fails to load
         siteData = {
             partners: [
+                { name: 'Siemens', logo: 'assets/partners/Siemens.png' },
+                { name: 'Fuji', logo: 'assets/partners/Fuji.png' },
                 { name: 'ABB', logo: 'assets/partners/ABB.png' },
-                { name: 'CG', logo: 'assets/partners/CG.png' },
+                { name: 'Nidec - Control Techniques', logo: 'assets/partners/Nidec.jpg' },
                 { name: 'DELTA', logo: 'assets/partners/DELTA.png' },
-                { name: 'Danfoss', logo: 'assets/partners/Danfoss.png' },
-                { name: 'GIC', logo: 'assets/partners/GIC.jfif' },
                 { name: 'INVT', logo: 'assets/partners/INVT.jfif' },
-                { name: 'RITTAL', logo: 'assets/partners/RITTAL.png' },
+                { name: 'CG', logo: 'assets/partners/CG.png' },
+                { name: 'Danfoss', logo: 'assets/partners/Danfoss.png' },
+                { name: 'Yaskawa', logo: 'assets/partners/Yaskawa.jfif' },
                 { name: 'Rockwell', logo: 'assets/partners/Rockwell.png' },
                 { name: 'Schneider', logo: 'assets/partners/Schneider.png' },
+                { name: 'RITTAL', logo: 'assets/partners/RITTAL.png' },
+                { name: 'GIC', logo: 'assets/partners/GIC.jfif' },
                 { name: 'Wago', logo: 'assets/partners/Wago.png' },
-                { name: 'Wecon', logo: 'assets/partners/Wecon.png' },
-                { name: 'Yaskawa', logo: 'assets/partners/Yaskawa.jfif' }
+                { name: 'Wecon', logo: 'assets/partners/Wecon.png' }
             ],
             products: {
                 'ABB': [
@@ -100,9 +103,10 @@ function loadProducts() {
     // Create filter buttons
     const categories = Object.keys(siteData.products);
     if (categories.length > 0 && filterButtons) {
-        filterButtons.innerHTML = '<button class="filter-btn active" data-filter="all">All Products</button>';
+        filterButtons.innerHTML = '';
         categories.forEach(category => {
-            filterButtons.innerHTML += `<button class="filter-btn" data-filter="${category}">${category}</button>`;
+            const isDefault = category.toLowerCase() === 'siemens';
+            filterButtons.innerHTML += `<button class="filter-btn${isDefault ? ' active' : ''}" data-filter="${category}">${category}</button>`;
         });
 
         // Add event listeners to new buttons
@@ -116,7 +120,8 @@ function loadProducts() {
         });
     }
 
-    displayProducts('all');
+    const defaultCategory = categories.find(c => c.toLowerCase() === 'siemens') || categories[0];
+    displayProducts(defaultCategory);
 }
 
 function displayProducts(filter) {
@@ -142,7 +147,7 @@ function displayProducts(filter) {
             productsToShow.push({
                 name: `${filter} Product`,
                 image: image,
-                description: `Premium ${filter} solution`
+                description: `Automation Solutions`
             });
         });
     }

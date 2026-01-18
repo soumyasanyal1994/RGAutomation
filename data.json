@@ -1,32 +1,40 @@
 {
     "partners": [
         {
+            "name": "Siemens",
+            "logo": "assets/partners/Siemens.png"
+        },
+        {
+            "name": "Fuji",
+            "logo": "assets/partners/Fuji.png"
+        },
+        {
             "name": "ABB",
             "logo": "assets/partners/ABB.png"
         },
         {
-            "name": "CG",
-            "logo": "assets/partners/CG.png"
+            "name": "Nidec - Control Techniques",
+            "logo": "assets/partners/Nidec.jpg"
         },
         {
             "name": "DELTA",
             "logo": "assets/partners/DELTA.png"
         },
         {
-            "name": "Danfoss",
-            "logo": "assets/partners/Danfoss.png"
-        },
-        {
-            "name": "GIC",
-            "logo": "assets/partners/GIC.jfif"
-        },
-        {
             "name": "INVT",
             "logo": "assets/partners/INVT.jfif"
         },
         {
-            "name": "RITTAL",
-            "logo": "assets/partners/RITTAL.png"
+            "name": "CG",
+            "logo": "assets/partners/CG.png"
+        },
+        {
+            "name": "Danfoss",
+            "logo": "assets/partners/Danfoss.png"
+        },
+        {
+            "name": "Yaskawa",
+            "logo": "assets/partners/Yaskawa.jfif"
         },
         {
             "name": "Rockwell",
@@ -37,16 +45,20 @@
             "logo": "assets/partners/Schneider.png"
         },
         {
+            "name": "RITTAL",
+            "logo": "assets/partners/RITTAL.png"
+        },
+        {
+            "name": "GIC",
+            "logo": "assets/partners/GIC.jfif"
+        },
+        {
             "name": "Wago",
             "logo": "assets/partners/Wago.png"
         },
         {
             "name": "Wecon",
             "logo": "assets/partners/Wecon.png"
-        },
-        {
-            "name": "Yaskawa",
-            "logo": "assets/partners/Yaskawa.jfif"
         }
     ],
     "products": {
@@ -169,8 +181,7 @@
             "assets/products/Siemens/Siemens_6.jfif",
             "assets/products/Siemens/Siemens_VFD_8.jfif",
             "assets/products/Siemens/Siemens_VFD_9.jfif",
-            "assets/products/Siemens/Siemens_7.jfif",
-            "assets/products/Siemens/Siemens_1.png"
+            "assets/products/Siemens/Siemens_7.jfif"
         ],
         "Wago": [
             "assets/products/Wago/Wago_PLC_3.jfif",
