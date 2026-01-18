@@ -260,7 +260,7 @@ a {
 
 /* About Section */
 #about {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('assets/img/RG_Panel.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('assets/img/RG_Panel.jpeg?v=2');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -290,6 +290,13 @@ a {
     font-size: 3rem;
     color: var(--primary);
     margin-bottom: 1.5rem;
+}
+
+.msme-badge {
+    display: block;
+    max-width: 90px;
+    height: auto;
+    margin: 0.5rem auto 1rem;
 }
 
 /* Products Section */
