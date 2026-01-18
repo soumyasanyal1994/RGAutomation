@@ -9,16 +9,16 @@
             "logo": "assets/partners/Fuji.png"
         },
         {
-            "name": "ABB",
-            "logo": "assets/partners/ABB.png"
-        },
-        {
             "name": "Nidec - Control Techniques",
             "logo": "assets/partners/Nidec.jpg"
         },
         {
+            "name": "ABB",
+            "logo": "assets/partners/ABB.png"
+        },
+        {
             "name": "DELTA",
-            "logo": "assets/partners/DELTA.png"
+            "logo": "assets/partners/Delta.jpeg"
         },
         {
             "name": "INVT",
@@ -50,7 +50,7 @@
         },
         {
             "name": "GIC",
-            "logo": "assets/partners/GIC.jfif"
+            "logo": "assets/partners/GIC.jpeg"
         },
         {
             "name": "Wago",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Wecon",
-            "logo": "assets/partners/Wecon.png"
+            "logo": "assets/partners/Wecon.jpeg"
         }
     ],
     "products": {
@@ -103,8 +103,6 @@
             "assets/products/Fuji/Fuji_HMI_11.jfif",
             "assets/products/Fuji/Fuji_2.jfif",
             "assets/products/Fuji/Fuji_UPS_3.jfif",
-            "assets/products/Fuji/Fuji_2.png",
-            "assets/products/Fuji/Fuji_0.png",
             "assets/products/Fuji/FUJI_HM_8.jfif"
         ],
         "GIC": [
@@ -123,7 +121,6 @@
             "assets/products/INVT/INVT_SOLAR_VFD_5.jpeg",
             "assets/products/INVT/INVT_VFD_2.jfif",
             "assets/products/INVT/INVT_VFD_3.jfif",
-            "assets/products/INVT/INVT_SOLAR_VFD_4.jpeg",
             "assets/products/INVT/INVT_HMI_7.jfif",
             "assets/products/INVT/INVT_SOLAR_VFD_6.jpeg",
             "assets/products/INVT/INVT_VFD_1.jfif"
@@ -131,9 +128,7 @@
         "Nidec": [
             "assets/products/Nidec/Nidec_2.jfif",
             "assets/products/Nidec/Nidec_3.jfif",
-            "assets/products/Nidec/nidec.jpg",
-            "assets/products/Nidec/Nidec_1.jfif",
-            "assets/products/Nidec/Nidec_4.png"
+            "assets/products/Nidec/Nidec_1.jfif"
         ],
         "RITTAL": [
             "assets/products/RITTAL/Rittal_AC_9.jfif",
@@ -146,12 +141,10 @@
             "assets/products/RITTAL/Rittal_AC_10.jfif",
             "assets/products/RITTAL/Rittal_Instrument_Panel_12.jfif",
             "assets/products/RITTAL/Rittal_MCC_Panel_5.jfif",
-            "assets/products/RITTAL/Rittal_MCC_Panel_4.jfif",
-            "assets/products/RITTAL/Rittal_logo.jfif"
+            "assets/products/RITTAL/Rittal_MCC_Panel_4.jfif"
         ],
         "Rockwell": [
             "assets/products/Rockwell/Rockwell_PLC_1.jfif",
-            "assets/products/Rockwell/Rockwell_Logo_1.png",
             "assets/products/Rockwell/Rockwell_VFD_4.jfif",
             "assets/products/Rockwell/Rockwell_VFD_5.jfif",
             "assets/products/Rockwell/Rockwell_VFD_6.jfif",
@@ -165,7 +158,6 @@
             "assets/products/Rockwell/Rockwell_PLC_2.jfif"
         ],
         "Schneider": [
-            "assets/products/Schneider/Schneider_Logo_1.png",
             "assets/products/Schneider/Schneider_VFD_6.jfif",
             "assets/products/Schneider/Schneider_PLC_5.jfif",
             "assets/products/Schneider/Schneider_PLC_4.jfif",
@@ -175,7 +167,7 @@
             "assets/products/Siemens/Siemens_2.jfif",
             "assets/products/Siemens/Siemens_SMPS_10.jfif",
             "assets/products/Siemens/Siemens_SMPS_11.jfif",
-            "assets/products/Siemens/Siemens_3.jfif",
+            "assets/products/Siemens/Siemens_new.jpeg",
             "assets/products/Siemens/Siemens_4.jfif",
             "assets/products/Siemens/Siemens_5.jfif",
             "assets/products/Siemens/Siemens_6.jfif",

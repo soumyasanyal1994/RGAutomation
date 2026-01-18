@@ -10,15 +10,16 @@ if (navToggle) {
 
 // Smooth Scrolling + Nav highlight / hide other links
 const navLinks = document.querySelectorAll('.nav-link');
+let activeSectionHref = null;
 
-function setActiveNavLink(activeLink) {
+function setActiveNavLink(activeLink, hideOthers) {
     navLinks.forEach(link => {
         if (link === activeLink) {
             link.classList.add('active');
             link.style.display = 'inline-block';
         } else {
             link.classList.remove('active');
-            link.style.display = 'none';
+            link.style.display = hideOthers ? 'none' : 'inline-block';
         }
     });
 }
@@ -36,10 +37,28 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             if (navMenu) navMenu.classList.remove('active');
             const headerLink = document.querySelector(`.nav-link[href="${href}"]`);
             if (headerLink) {
-                setActiveNavLink(headerLink);
+                activeSectionHref = href;
+                setActiveNavLink(headerLink, true);
             }
         }
     });
+});
+
+window.addEventListener('scroll', () => {
+    if (!activeSectionHref) return;
+    const section = document.querySelector(activeSectionHref);
+    const navbar = document.querySelector('.navbar');
+    if (!section || !navbar) return;
+    const rect = section.getBoundingClientRect();
+    const anchorY = navbar.offsetHeight + 20;
+    const inView = rect.top <= anchorY && rect.bottom >= anchorY;
+    if (!inView) {
+        activeSectionHref = null;
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            link.style.display = 'inline-block';
+        });
+    }
 });
 
 // Initialize AOS
@@ -163,11 +182,25 @@ function displayProducts(filter) {
     } else {
         const categoryImages = siteData.products[filter] || [];
         categoryImages.forEach((image, imgIndex) => {
-            productsToShow.push({
-                name: `${filter} Product`,
-                image: image,
-                description: `Automation Solutions`
-            });
+            if (filter === 'RITTAL') {
+                productsToShow.push({
+                    name: 'RITTAL Panel and Product',
+                    image: image,
+                    description: 'Panel and Solution'
+                });
+            } else if (filter === 'Electrical Panel') {
+                productsToShow.push({
+                    name: 'Electrical Panel and Product',
+                    image: image,
+                    description: 'Automation Panel Solution'
+                });
+            } else {
+                productsToShow.push({
+                    name: `${filter} Product`,
+                    image: image,
+                    description: `Automation Solutions`
+                });
+            }
         });
     }
 

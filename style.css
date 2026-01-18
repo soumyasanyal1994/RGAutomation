@@ -73,7 +73,7 @@ a {
 }
 
 .logo {
-    height: 40px;
+    height: 72px;
     width: auto;
 }
 
@@ -318,6 +318,34 @@ a {
     margin: 0.5rem auto 1rem;
 }
 
+.director-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.director-block {
+    margin-bottom: 1.5rem;
+}
+
+.director-block:last-child {
+    margin-bottom: 0;
+}
+
+.mission-block {
+    margin-bottom: 1.5rem;
+}
+
+.vision-icon {
+    margin-right: 0.5rem;
+    color: var(--primary);
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
 /* Products Section */
 .filter-buttons {
     display: flex;
@@ -427,7 +455,8 @@ a {
 }
 
 .project-item:hover .project-img {
-    transform: scale(1.06);
+    transform: none;
+    object-fit: contain;
 }
 
 .project-item:hover::after {
@@ -564,6 +593,9 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .logo {
+        height: 54px;
+    }
     .nav-menu {
         position: fixed;
         top: 70px;
