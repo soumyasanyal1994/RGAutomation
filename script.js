@@ -8,17 +8,36 @@ if (navToggle) {
     });
 }
 
-// Smooth Scrolling
+// Smooth Scrolling + Nav highlight / hide other links
+const navLinks = document.querySelectorAll('.nav-link');
+
+function setActiveNavLink(activeLink) {
+    navLinks.forEach(link => {
+        if (link === activeLink) {
+            link.classList.add('active');
+            link.style.display = 'inline-block';
+        } else {
+            link.classList.remove('active');
+            link.style.display = 'none';
+        }
+    });
+}
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        const href = this.getAttribute('href');
+        const target = document.querySelector(href);
         if (target) {
             target.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
             });
             if (navMenu) navMenu.classList.remove('active');
+            const headerLink = document.querySelector(`.nav-link[href="${href}"]`);
+            if (headerLink) {
+                setActiveNavLink(headerLink);
+            }
         }
     });
 });
